@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.css">
+ 
+</head>
+<body>
+    <header class="header" id="inicio">
+        <img src="img/hamburguesa.svg" alt="" class="hamburger">
+        <nav class="menu-navegacion">
+            <a href="#inicio">Inicio</a>
+            <a href="#servicio">Servicio</a>
+            <a href="#portafolio">Galeria</a>
+            <a href="#expertos">Compras</a>
+            <a href="#contacto">Contactos</a>
+        </nav>
+        <div class="contenedor head">
+            <h1 class="titulo">JAZZ STORE
+            </h1>
+            <hr>
+            <h1 class="titulo">Todo lo que necesitas aquí
+            </h1>
+            <p class="copy">Precio es lo que pagas, valor es lo que tienes.</p>
+        </div>
+    </header>
+    <main>
+        <section class="services contenedor" id="servicio">
+            <h2 class="subtitulo">Nuestro servicio</h2>
+            <div class="contenedor-servicio">
+                <img src="img/compras.png" alt="">
+                <div class="checklist-servicio">
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">1</span>Ropa de Trabajo</h3>
+                        <p style="font-size: 13px;" align="justify">Una alternativa diferente para adquirir ropa de trabajo y ropa corporativa de calidad comprobada.
+
+                            Alfa confecciones, se complace en presentar a ustedes una alternativa diferente para adquirir ropa de trabajo y ropa corporativa de calidad comprobada. Contamos con servicio de bordado y estampado. Esperamos su solicitud de cotización, responderemos dentro de las 24 horas de recibida la misma.</p>
+                        
+                    </div>
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">2</span>Ofrecemos la Mejor Variedad de Productos en Moda.</h3>
+                        <p style="font-size: 13px;"align="justify">Estamos enfocados a entregarte el mejor servicio y la mejor experiencia de compra, diferenciarnos de otras propuestas gracias a la calidad de nuestros productos y de nuestro talento humano
+
+                            Somos un equipo diverso de más de 3.000 personas motivadas por servir con excelencia a nuestros clientes y a entregar lo mejor de sí en cada una de las áreas. Contamos con más de 78 años de experiencia, manteniendo desde nuestros inicios al cliente como el centro de todas nuestras acciones.</p>
+                        
+                    </div>
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">3</span>Diseño y confección de uniformes empresariales
+
+                        </h3>
+                        <p style="font-size: 13px;"align="justify">ALBOMODA brinda el servicio de diseño, sastrería con maestros y modistas calificados que estarán gustosos de atenderles. Operadores con títulos profesionales en la rama de diseño, corte y confección.
+
+                            Más de 17 años dotando al personal administrativo, ejecutivo e industrial una selecta gama de uniformes. Confeccionamos Uniformes Corporativos, Ternos para Mujeres y Hombres, Camisas, Blusas, confeccionados con excelente materia prima y calidad humana. Distribuidores a nivel nacional.</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="gallery" id="portafolio">
+            <div class="contenedor">
+                <h2 class="subtitulo">Galería de Productos de Venta</h2>
+                <div class="contenedor-galeria">
+                    <img src="img/uno.jpg" alt="" class="img-galeria">
+                    <img src="img/dos.jpg" alt="" class="img-galeria">
+                    <img src="img/tre.jpg" alt="" class="img-galeria">
+                    <img src="img/cuatro.jpg" alt="" class="img-galeria">
+                    <img src="img/cinco.jpg" alt="" class="img-galeria">
+                    <img src="img/seis.jpg" alt="" class="img-galeria">
+                </div>
+            </div>
+        </section>
+        <section class="imagen-ligth">
+            <img src="img/close.svg" alt="" class="close">
+            <img src="img/portada.jpg" alt="" class="agregar-imagen">
+            
+            <br>
+            <div class="row">
+                <form action="">
+                    <fieldset>
+                        <h1 class="com">Cantidad</h1>
+                        <input type="number" class="form-control" id="cantidad">   
+                        <button type="button" id="insertar" class="a2">Comprar</button>      
+                        <hr>
+                    </fieldset>
+                </form>
+                
+            </div>
+            
+        </section>
+         
+        <section class="contenedor" id="expertos"> 
+            <h2 class="subtitulo">Lista de Compras:</h2> 
+            <h3 align="center">Lista de Productos</h3>
+            
+                        <table class="q" id="listaProductos" style="width:715px" href="js/comprar.js:cargarDatos"></table>
+        </section>
+
+    </main>
+    <footer class="contacto" id="contacto">
+        <div class="footer-content">
+            <div class="contact-us">
+                <h2 class="brand">Confecciones JAZZ STORE</h2>
+                <P>Diseñamos todo tipo de ropa</P>
+            </div>
+            <div class="social-media">
+                <a href=""class="social-media-icon">
+                    <i class='bx bxl-facebook'></i>
+
+                </a>
+                <a href=""class="social-media-icon">
+                    <i class='bx bxl-twitter'></i>
+
+                </a>
+                <a href=""class="social-media-icon">
+                    <i class='bx bxl-instagram'></i>
+
+                </a>
+            </div>
+        </div>
+        <div class="line"></div>
+    </footer>
+
+   <script src="js/menu.js"></script>
+
+   <script src="js/lightbox.js"></script>
+   <script  src="js/jquery.js"></script>
+   <script  src="js/comprar.js"></script>
+   
+
+
+</body>
+</html>
